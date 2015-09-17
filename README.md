@@ -1,2 +1,2 @@
 # Auto-Deploy-Confs
-auto deploy demo  
+auto deploy for tradespider client  
