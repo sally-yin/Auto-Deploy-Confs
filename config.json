@@ -8,20 +8,6 @@
       "labels": "auto deploy",
       "command": "./auto-deploy.sh",
       "confirm": null
-    },
-    {
-      "user": "hgdharold",
-      "name": "glassesbag",
-      "labels": "auto deploy",
-      "command": "./auto-deploy.sh",
-      "confirm": null
-    },
-    {
-      "user": "hgdharold",
-      "name": "tradespider",
-      "labels": "auto deploy",
-      "command": "./auto-deploy.sh",
-      "confirm": null
     }
   ]
 }
