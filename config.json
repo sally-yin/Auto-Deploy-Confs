@@ -1,0 +1,28 @@
+{
+  "username": "hgdharold",
+  "password": "fc855fe27b143ed80a6df18c2569f416c1bb0ec2",
+  "repos": [
+    {
+      "user": "hgdharold",
+      "name": "tradespider-docker",
+      "labels": "auto deploy",
+      "command": "./auto-deploy.sh",
+      "confirm": null
+    },
+    {
+      "user": "hgdharold",
+      "name": "glassesbag",
+      "labels": "auto deploy",
+      "command": "./auto-deploy.sh",
+      "confirm": null
+    },
+    {
+      "user": "hgdharold",
+      "name": "tradespider",
+      "labels": "auto deploy",
+      "command": "./auto-deploy.sh",
+      "confirm": null
+    }
+  ]
+}
+
