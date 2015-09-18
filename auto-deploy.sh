@@ -4,6 +4,7 @@
 cd ../
 echo "delete old file"
 sudo rm -rf tradespider/ glassesbag/ tradespider-docker/
+su ubuntu
 echo "pull from github"
 git clone git@github.com:Tradesparq/glassesbag.git -b pg
 git clone git@github.com:Tradesparq/tradespider.git
@@ -13,7 +14,5 @@ echo "start project"
 cd tradespider-docker
 docker-compose stop && \
 echo y | docker-compose rm && \
-docker-compose up -d
-
+docker-compose up -d && \
 echo "success"
-~                 
